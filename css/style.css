@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*Estilos del logo */
+
+.logotipo {
+    padding: 20px;
+    display: flex;
+    background-color: rgba(255, 192, 203, 0.418);
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    flex-wrap: wrap;
+}
+
+/*Estilos del nav */
+
+.navegador1 {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.navegador2 a {
+    color: darkorchid;
+    text-decoration: none;
+}
+
+/*Estilos del logo */
+
+.logo {
+    width: 150px;
+}
+
+
+/*estilos del Banner*/
+
+.banner {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.banner img {
+    width: 80%;
+    padding: 20px;
+}
+
+/*Estilos del Footer*/
+
+.icono {
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 20px;
+    gap: 100px;
+}
+
+.pagina {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.pagina1 {
+    width: 40px;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.texto {
+    display: grip;
+    text-align: center;
+}
+
+/*Estilos de la Seccion*/
+
+.publicidad {
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    background-color: rgb(253, 215, 241);
+    padding: 20px;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*Seccion Mujer*/
+
+.boton {
+    background-color: blueviolet;
+    color: pink;
+    font-size: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Formulario*/
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.formulario {
+    display: grid;
+    width: 350px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+    color: black;
+    background-color: rgba(206, 98, 200, 0.322);
+}
+
+.contacto {
+    width: 100%;
+    background-color: rgba(255, 192, 203, 0.24);
+    padding: 10px;
+    border-radius: 4px;
+    border-color: black;
+    margin-bottom: 16px;
+    border: 1px solid rgba(255, 192, 203, 0.199);
+    font-family: calibri;
+    font-size: 18px;
+}
+
+.seleccion {
+    margin-top: 20px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.but-for {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+}
+
+.boton1 {
+    background-color: rgba(255, 20, 145, 0.205);
+    border: 0px;
+    padding: 10px;
+    color: black;
+    margin-right: 100px;
+}
+
+.boton2 {
+    background-color: rgba(255, 20, 145, 0.205);
+    border: 0px;
+    padding: 10px;
+    color: black;
+}
+
+/*Transformaciones*/
+
+.translate {
+    transition: 1s;
+}
+
+.translate:hover {
+    transform: translate(0, -20px);
+}
+
+.scale {
+    transition: 1s;
+}
+
+.scale:hover {
+    transform: scale(1.5);
+}
+
+/*Medias Query*/
+
+@media screen and (max-width: 1023px) {
+    .logo {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .navegador1 {
+        padding: 5px;
+    }
+
+    .publicidad {
+        flex-direction: column;
+    }
+
+    .formulario {
+        width: 250px;
+    }
+
+    .contacto {
+        width: 80%;
+        border-radius: 2px;
+        margin-bottom: 12px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .logo {
+        text-align: center;
+        margin: auto;
+    }
+
+    .navegador2 {
+        text-align: center;
+    }
+
+    .icono {
+        width: 50px;
+    }
+
+    .formulario {
+        width: 70%;
+    }
+
+    .contacto {
+        width: 70%;
+        border-color: black;
+    }
+}
+

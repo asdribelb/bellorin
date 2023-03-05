@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <header class="logotipo">
+        <img class="logo" src="../img/LOGOBELLORIN.png" alt="logotipo">
+
+        <nav>
+            <ul class="navegador1">
+                <li class="navegador2"><a href="/index.html">Inicio</a></li>
+                <li class="navegador2"><a href="../pages/mujer.html">Mujer</a></li>
+                <li class="navegador2"><a href="../pages/hombre.html">Hombre</a></li>
+                <li class="navegador2"><a href="../pages/niños.html">Niños</a></li>
+                <li class="navegador2"><a href="../pages/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form class="formulario">
+            <h2>Contacto</h2>
+
+            <label for="Nombres">Nombres</label>
+            <input class="contacto" type="text" name="nombres" id="nombres">
+
+            <label for="Apellidos">Apellidos</label>
+            <input class="contacto" type="text" name="apellidos" id="apellidos">
+
+            <label for="Correo">Correo</label>
+            <input class="contacto" type="email" name="correo" id="correo">
+
+            <label>Comuna</label>
+            <select class="seleccion">
+                <option value="">Seleccionar:</option>
+                <option vale="1">Puente Alto</option>
+                <option vale="2">La Cisterna</option>
+                <option vale="3">El Bosque</option>
+            </select>
+        
+
+            <label for="hombre">Hombre </label>
+            <input type="radio" value="Hombre" id="hombre" name="sexo">
+            <label for="mujer">Mujer </label>
+            <input type="radio" value="mujer" id="mujer" name="sexo">
+            <label for="no-contesta">Prefiero no contestar </label>
+            <input type="radio" value="No contesta" id="no-contesta" name="sexo">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="" cols="30" rows="5"></textarea>
+
+            <div class="but-for">
+                <button class="boton1">
+                    ENVIAR
+                </button>
+
+                <button class="boton2">
+                    LIMPIAR
+                </button>
+            </div>
+
+        </form>
+    </main>
+
+    <footer>
+        <div class="pagina">
+            <a class="icono" href="http://https://www.instagram.com/"> <img class="pagina1"
+                    src="../img/instagram-1.svg"> </a>
+            <a class="icono" href="http://https://www.google.com/intl/es-419/gmail/about/"> <img class="pagina1"
+                    src="../img/correo.png"> </a>
+            <a class="icono" href="http://facebook.com"> <img class="pagina1" src="../img/facebook-1.svg"> </a>
+            <a class="icono" href="http://whatsaap.com"> <img class="pagina1" src="../img/whatsaap 1.svg"> </a>
+        </div>
+
+        <div class="texto">
+            <p>&copy;Todos los derechos reservados</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
