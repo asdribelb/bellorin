@@ -1,21 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*Estilos del logo */
 
 .logotipo {
-    padding: 20px;
+    padding: 10px 40px;
     display: flex;
     background-color: rgba(255, 192, 203, 0.418);
     justify-content: space-between;
     align-items: center;
-    height: 50px;
-    flex-wrap: wrap;
+}
+
+.bienvenido {
+    font-family: 'Poppins', sans-serif;
+    color: darkorchid;
+    font-size: 40px;
 }
 
 /*Estilos del nav */
@@ -34,21 +39,19 @@
 /*Estilos del logo */
 
 .logo {
-    width: 150px;
+    width: 200px;
 }
-
 
 /*estilos del Banner*/
 
 .banner {
-    display: flex;
-    justify-content: center;
     height: 250px;
 }
 
 .banner img {
-    width: 80%;
-    padding: 20px;
+    width: 50%;
+    padding: 10px;
+    border-radius: 40px;
 }
 
 /*Estilos del Footer*/
@@ -63,12 +66,12 @@
 .pagina {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .pagina1 {
-    width: 40px;
-    padding: 20px;
+    width: 50px;
+    padding: 10px;
     flex-grow: 1;
 }
 
@@ -77,7 +80,7 @@
     text-align: center;
 }
 
-/*Estilos de la Seccion*/
+/*Estilos de las Secciones*/
 
 .publicidad {
     padding: 40px;
@@ -85,9 +88,13 @@
     gap: 40px;
 }
 
+h3 {
+    font-size: 20px;
+}
+
 .card {
     background-color: rgb(253, 215, 241);
-    padding: 20px;
+    padding: 10px;
     border-radius: 16px;
 
     display: flex;
@@ -101,6 +108,59 @@
 
 h2 {
     text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.oferta {
+    font-size: 40px;
+}
+
+.descuentos {
+    padding: 40px;
+}
+
+.galeria {
+    padding: 20px 40px;
+    border-radius: 16px;
+}
+
+.estilo {
+    font-size: 40px;
+    margin: 30px;
+}
+
+.card2 {
+    padding: 20px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-body {
+    padding: 40px;
+}
+
+.card-text {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.btn {
+    bottom: 50%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
 }
 
 /*Seccion Mujer*/
@@ -114,62 +174,176 @@ h2 {
     text-align: center;
 }
 
+.banner2 {
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.banner_img {
+    width: 100%;
+    border-radius: 60px;
+    align-items: center;
+    padding: 20px;
+}
+
+.mujer {
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+/*Seccion Hombre*/
+
+.hombre {
+    width: 100%;
+    border-radius: 40px;
+    align-items: center;
+    padding: 20px;
+}
+
+.hombre1 {
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+/*Seccion Niños*/
+
+.ninos {
+    width: 80%;
+    border-radius: 40px;
+    align-items: center;
+    padding: 20px;
+}
+
 /*Formulario*/
 
 h1 {
     text-align: center;
-    margin: 10px;
+    margin: 20px;
+    font-size: 25px;
 }
 
 .formulario {
     display: grid;
-    width: 350px;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
+    padding: 10px;
     border-radius: 4px;
     font-family: calibri;
-    color: black;
-    background-color: rgba(206, 98, 200, 0.322);
+    text-align: center;
 }
 
-.contacto {
-    width: 100%;
-    background-color: rgba(255, 192, 203, 0.24);
-    padding: 10px;
+.contacto4 {
+    padding: 10px 40px;
     border-radius: 4px;
     border-color: black;
     margin-bottom: 16px;
     border: 1px solid rgba(255, 192, 203, 0.199);
     font-family: calibri;
-    font-size: 18px;
+    font-size: 15px;
+}
+
+.mensaje1 {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+}
+
+.nombre {
+text-align: center;
 }
 
 .seleccion {
-    margin-top: 20px;
-    width: 200px;
-    margin-bottom: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .but-for {
     display: flex;
     justify-content: center;
-    padding: 35px;
+    padding: 20px;
 }
 
 .boton1 {
-    background-color: rgba(255, 20, 145, 0.205);
+    background-color: white;
     border: 0px;
     padding: 10px;
-    color: black;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 .boton2 {
-    background-color: rgba(255, 20, 145, 0.205);
+    background-color: white;
     border: 0px;
     padding: 10px;
     color: black;
+}
+
+.contac1 {
+    width: 100%;
+    border-radius: 30%;
+    padding: 40px 50px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "mensaje datos"
+    "mensaje datos";
+    gap: 50px;
+}
+
+.datos_cuadro {
+    border-radius: 20px;
+    grid-area: datos;
+    background-color: rgba(114, 181, 236, 0.8);
+    padding: 10px;
+}
+
+.enviar_mensaje {
+    background-color: rgba(114, 181, 236, 0.8);
+    grid-area: mensaje;
+    border-radius: 20px;
+}
+
+.contact1 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon2 {
+   text-align: center;
+   margin: 30px;
+}
+
+.icon_img {
+    text-align: center;
+}
+
+.informacion {
+    text-align: center;
+}
+
+.img_contacto {
+    width: 10%;
+    text-decoration: none;
+    text-align: center;
+}
+
+.img_contac2 {
+    width: 30%;
+}
+
+.borde {
+    border-bottom: 3px solid white;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 /*Transformaciones*/
@@ -198,48 +372,57 @@ h1 {
     }
 }
 
-@media screen and (max-width: 500px) {
-    h1 {
+@media screen and (max-width: 900px) {
+    .bienvenido {
         font-size: 20px;
-        padding: 10px;
     }
 
     h2 {
         font-size: 15px;
     }
 
-    .logo {
-        justify-content: center;
-    }
-
-    .navegador1 {
-        padding: 5px;
-    }
-
     .publicidad {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .galeria {
         flex-direction: column;
     }
 
     .formulario {
-        width: 250px;
+        width: 100%;
     }
 
     .contacto {
-        width: 80%;
         border-radius: 2px;
-        margin-bottom: 12px;
-        font-size: 12px;
+        margin-bottom: 8px;
+        font-size: 10px;
+    }
+
+    .datos_cuadro {
+        flex-direction: column;
+    }
+    
+    .enviar_mensaje {
+        flex-direction: column;
+    }
+
+    .contac1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
 
-@media screen and (max-width: 450px) {
+
+@media screen and (max-width: 500px) {
     .logo {
-        text-align: center;
-        margin: auto;
+        display: flex;
     }
 
     .navegador2 {
-        text-align: center;
+        flex-direction: column;
     }
 
     .icono {
@@ -247,12 +430,12 @@ h1 {
     }
 
     .formulario {
-        width: 70%;
+        width: 100%;
     }
 
-    .contacto {
-        width: 70%;
-        border-color: black;
+    .contac1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
     }
 }
-

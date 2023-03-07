@@ -6,28 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bellorin</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
     <header class="logotipo">
-        <img class="logo translate" src="./img/LOGOBELLORIN.png" alt="logotipo">
+        <img class="logo translate" src="../img/LOGOBELLORIN.png" alt="logotipo">
+
         <nav>
             <ul class="navegador1">
                 <li class="navegador2"><a href="./index.html">Inicio</a></li>
-                <li class="navegador2"><a href="./pages/mujer.html">Mujer</a></li>
-                <li class="navegador2"><a href="./pages/hombre.html">Hombre</a></li>
-                <li class="navegador2"><a href="./pages/niños.html">Niños</a></li>
-                <li class="navegador2"><a href="./pages/contacto.html">Contacto</a></li>
+                <li class="navegador2"><a href="../pages/mujer.html">Mujer</a></li>
+                <li class="navegador2"><a href="../pages/hombre.html">Hombre</a></li>
+                <li class="navegador2"><a href="../pages/niños.html">Niños</a></li>
+                <li class="navegador2"><a href="../pages/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1> Bienvenidos a mi Tienda Online </h1>
-        <section class="banner">
-            <img src="./img/tiendaropa.jpg" alt="banner">
+        <h1 class="bienvenido"> Bienvenidos a mi Tienda Online </h1>
+
+        <section class="banner d-flex justify-content-center">
+            <img class="ban" src="./img/mujerbanner3.jpg" alt="banner">
         </section>
 
         <section class="publicidad">
@@ -40,28 +46,91 @@
             <div class="card">
                 <img src="./img/chaquetahombre.jpg" alt="polera">
                 <h2>Chaqueta Mango</h2>
-
             </div>
 
             <div class="card">
                 <img src="./img/poleronkids.jpg" alt="kids">
                 <h2>Mango Kids Capucha</h2>
-
             </div>
 
         </section>
+
+        <h2 class="oferta translate">Ofertas del Dia</h2>
+
+        <section class="descuentos">
+
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/bannermujer6.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/bannermujer5.webp" class="d-block w-100" alt="...">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <h2 class="estilo translate">Galeria de Estilos</h2>
+
+            <section class="galeria d-flex">
+
+                <div class="card2" style="width: 18rem;">
+                    <img class="card-img" src="./img/glamour.jpg">
+
+                    <div class="card-body">
+                        <a href="#" target="_blank" class="btn scale">Glamour</a>
+                    </div>
+                </div>
+
+                <div class="card2" style="width: 18rem;">
+                    <img class="card-img" src="./img/abrigosdemoda.jpg">
+
+                    <div class="card-body">
+                        <a href="#" target="_blank" class="btn scale">Abrigos de Moda</a>
+                    </div>
+                </div>
+
+                <div class="card2" style="width: 18rem;">
+                    <img class="card-img" src="./img/estilocasual.jpg">
+
+                    <div class="card-body">
+                        <a href="#" target="_blank" class="btn scale">Estilo Casual</a>
+                    </div>
+                </div>
+
+                <div class="card2" style="width: 18rem;">
+                    <img class="card-img" src="./img/primavera.jpg">
+
+                    <div class="card-body">
+                        <a href="#" target="_blank" class="btn scale">Primavera</a>
+                    </div>
+                </div>
+            </section>
 
     </main>
 
     <footer>
         <div class="pagina">
-            <a class="icono scale" href="http://https://www.instagram.com/"> <img class="pagina1"
-                    src="./img/instagram-1.svg">
+            <a class="icono scale" target="_blank" href="http://https://www.instagram.com/">
+                <img class="pagina1" src="./img/instagram-1.svg">
             </a>
-            <a class="icono scale" href="http://https://www.google.com/intl/es-419/gmail/about/"> <img class="pagina1"
-                    src="./img/correo.png"> </a>
-            <a class="icono scale" href="http://facebook.com"> <img class="pagina1" src="../img/facebook-1.svg"> </a>
-            <a class="icono scale" href="http://whatsaap.com"> <img class="pagina1" src="../img/whatsaap 1.svg"> </a>
+            <a class="icono scale" target="_blank" href="http://https://www.google.com/intl/es-419/gmail/about/">
+                <img class="pagina1" src="./img/correo.png"> </a>
+            <a class="icono scale" target="_blank" href="http://facebook.com">
+                <img class="pagina1" src="./img/facebook-1.svg"> </a>
+            <a class="icono scale" target="_blank" href="http://whatsaap.com">
+                <img class="pagina1" src="./img/whatsaap 1.svg"> </a>
         </div>
 
         <div class="texto">
@@ -70,6 +139,9 @@
 
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
