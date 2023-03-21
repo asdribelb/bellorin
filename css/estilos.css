@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.logotipo {
+  padding: 10px 50px;
+  display: flex;
+  background-color: rgba(255, 192, 203, 0.418);
+  justify-content: space-between;
+  align-items: center;
+}
+.logotipo .logo {
+  width: 200px;
+  align-items: flex-end;
+}
+.logotipo .translate {
+  transition: 1s;
+}
+.logotipo .translate:hover {
+  transform: translate(0, -20px);
+}
+.logotipo .navegador1 {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+.logotipo .navegador1 .navegador2 a {
+  color: darkorchid;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+.logotipo .navegador1 a:hover {
+  color: rgb(255, 0, 98);
+  font-weight: bold;
+}
+
+/*estilos del Banner*/
+.bienvenido {
+  font-family: "Poppins", sans-serif;
+  color: darkorchid;
+  font-size: 40px;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 40px;
+}
+.banner .ban {
+  width: 80%;
+  height: 400px;
+  border-radius: 60px;
+  align-items: center;
+  padding: 20px;
+}
+
+.translate {
+  transition: 1s;
+}
+
+.translate:hover {
+  transform: translate(0, -20px);
+}
+
+/*SECCIONES PRINCIPALES*/
+.publicidad {
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+}
+.publicidad .card {
+  background-color: rgb(253, 215, 241);
+  padding: 10px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.publicidad .card h2 {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+  font-family: sans-serif;
+}
+.publicidad .card .card img {
+  width: 100%;
+}
+
+/*OFERTAS DEL DIA*/
+.oferta {
+  font-size: 40px;
+}
+
+.estilo {
+  font-size: 40px;
+  margin: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px;
+  font-family: sans-serif;
+}
+
+.galeria {
+  padding: 20px 30px;
+  border-radius: 16px;
+}
+.galeria .card2 {
+  display: flex;
+  padding: 20px;
+  width: 18rem;
+}
+.galeria .card2 .card-img {
+  width: 100%;
+  border-radius: 20px;
+  gap: 10px;
+}
+.galeria .card-body {
+  padding: 40px;
+}
+.galeria .card-body .btn {
+  bottom: 50%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
+.galeria .scale {
+  transition: 1s;
+}
+.galeria .scale:hover {
+  transform: scale(1.5);
+}
+
+.banner2 {
+  padding: 10px;
+  border-radius: 40px;
+}
+.banner2 .banner_img {
+  width: 100%;
+  border-radius: 60px;
+  align-items: center;
+  padding: 20px;
+}
+
+.boton {
+  background-color: blueviolet;
+  color: pink;
+  font-size: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.hombre {
+  width: 100%;
+  border-radius: 40px;
+  align-items: center;
+  padding: 20px;
+}
+
+.contac1 {
+  width: 100%;
+  border-radius: 30%;
+  padding: 40px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "mensaje datos" "mensaje datos";
+  gap: 50px;
+}
+.contac1 .datos_cuadro {
+  border-radius: 20px;
+  grid-area: datos;
+  background-color: rgba(114, 181, 236, 0.8);
+  padding: 10px;
+}
+.contac1 .datos_cuadro .borde {
+  border-bottom: 3px solid white;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.contac1 .datos_cuadro .borde .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contac1 .datos_cuadro .borde .img_contacto {
+  width: 10%;
+  text-decoration: none;
+  text-align: center;
+}
+.contac1 .datos_cuadro .borde .informacion {
+  text-align: center;
+}
+
+.enviar_mensaje {
+  background-color: rgba(114, 181, 236, 0.8);
+  grid-area: mensaje;
+  border-radius: 20px;
+  gap: 20px;
+}
+.enviar_mensaje .formulario {
+  display: grid;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: calibri;
+  text-align: center;
+  justify-items: center;
+}
+.enviar_mensaje .formulario .nombre {
+  text-align: center;
+}
+.enviar_mensaje .formulario .contacto4 {
+  padding: 10px 40px;
+  border-radius: 4px;
+  border-color: black;
+  margin-bottom: 16px;
+  border: 1px solid rgba(255, 192, 203, 0.199);
+  font-family: calibri;
+  font-size: 15px;
+}
+.enviar_mensaje .formulario .seleccion {
+  width: 100px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.enviar_mensaje .formulario .opciones {
+  left: 50%;
+}
+.enviar_mensaje .formulario .mensaje1 {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+.enviar_mensaje .formulario .no-contesta {
+  margin-bottom: 20px;
+}
+
+.but-for {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.but-for .boton1 {
+  background-color: white;
+  border: 0px;
+  padding: 10px;
+  margin-right: 50px;
+}
+.but-for .boton2 {
+  background-color: white;
+  border: 0px;
+  padding: 10px;
+}
+
+.contact1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon2 {
+  text-align: center;
+  margin: 30px;
+}
+
+.icon_img {
+  text-align: center;
+}
+
+.img_contac2 {
+  width: 30%;
+}
+
+.pagina {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.pagina .icono {
+  text-decoration: none;
+  color: blueviolet;
+  font-size: 30px;
+  gap: 100px;
+}
+.pagina .icono .pagina1 {
+  width: 70px;
+  padding: 10px;
+  flex-grow: 1;
+}
+.pagina .scale {
+  transition: 1s;
+}
+.pagina .scale:hover {
+  transform: scale(1.5);
+}
+
+.texto {
+  text-align: center;
+  display: grid;
+}
+
+@media screen and (max-width: 1023px) {
+  .logo {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .bienvenido {
+    font-size: 20px;
+  }
+  .logotipo {
+    justify-content: center;
+    align-items: center;
+  }
+  .banner {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 40px;
+  }
+  .ban {
+    width: 80%;
+    height: 250px;
+    border-radius: 60px;
+    align-items: center;
+    padding: 20px;
+  }
+  h2 {
+    font-size: 15px;
+  }
+  .publicidad {
+    flex-direction: column;
+  }
+  .galeria {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .formulario {
+    width: 100%;
+  }
+  .contacto {
+    border-radius: 2px;
+    margin-bottom: 8px;
+    font-size: 10px;
+  }
+  .datos_cuadro {
+    flex-direction: column;
+  }
+  .enviar_mensaje {
+    flex-direction: column;
+  }
+  .contac1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .navegador1 {
+    display: flex;
+  }
+}
+@media screen and (max-width: 580px) {
+  .logo {
+    display: none;
+  }
+  .banner {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 40px;
+  }
+  .banner .ban {
+    width: 100%;
+    height: 200px;
+    border-radius: 60px;
+    align-items: center;
+    padding: 20px;
+  }
+  .banner .navegador1 {
+    font-size: 14px;
+    padding: 0;
+    font-weight: 600;
+    justify-content: center;
+  }
+  .banner .icono {
+    width: 50px;
+  }
+  .banner .formulario {
+    width: 100%;
+  }
+  .banner .contac1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner .logotipo {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.descuentos {
+  padding: 20px;
+}
+
+.galeria {
+  flex-direction: column;
+  align-items: center;
+}
+.galeria .card2 {
+  flex-direction: column;
+}/*# sourceMappingURL=estilos.css.map */

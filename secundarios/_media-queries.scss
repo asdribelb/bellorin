@@ -1,0 +1,133 @@
+@media screen and (max-width: 1023px) {
+    .logo {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .bienvenido {
+        font-size: 20px;
+    }
+
+    .logotipo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 40px;
+    }
+
+    .ban {
+        width: 80%;
+        height: 250px;
+        border-radius: 60px;
+        align-items: center;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .publicidad {
+        flex-direction: column;
+    }
+
+    .galeria {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .formulario {
+        width: 100%;
+    }
+
+    .contacto {
+        border-radius: 2px;
+        margin-bottom: 8px;
+        font-size: 10px;
+    }
+
+    .datos_cuadro {
+        flex-direction: column;
+    }
+
+    .enviar_mensaje {
+        flex-direction: column;
+    }
+
+    .contac1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navegador1 {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .logo {
+        display: none;
+    }
+
+    .banner {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 40px;
+
+        .ban {
+            width: 100%;
+            height: 200px;
+            border-radius: 60px;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .navegador1 {
+            font-size: 14px;
+            padding: 0;
+            font-weight: 600;
+            justify-content: center;
+        }
+
+        .icono {
+            width: 50px;
+        }
+
+        .formulario {
+            width: 100%;
+        }
+
+        .contac1 {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logotipo {
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.descuentos {
+    padding: 20px;
+}
+
+.galeria {
+    flex-direction: column;
+    align-items: center;
+
+    .card2 {
+        flex-direction: column;
+    }
+}
