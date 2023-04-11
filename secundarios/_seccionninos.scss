@@ -1,2 +1,41 @@
+.ropa {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
 
+.card_kids {
+    justify-content: center;
+    padding: 20px;
 
+    .card_kids2 {
+        border-radius: 100px;
+        width: 80px;
+        justify-content: center;
+    }
+
+    h3 {
+        font-size: 10px;
+        margin: 10px;
+    }
+}
+
+.card_bebe {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+    h3 {
+        text-align: center;
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .bebe_texto {
+        text-align: center;
+        font-size: 12px;
+    }
+
+}
