@@ -196,6 +196,22 @@ h2 {
   text-align: center;
 }
 
+.card_mujer {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.card_mujer h3 {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+}
+.card_mujer .mujer_texto {
+  text-align: center;
+  font-size: 12px;
+  height: 18px;
+}
+
 .hombre {
   width: 100%;
   border-radius: 40px;

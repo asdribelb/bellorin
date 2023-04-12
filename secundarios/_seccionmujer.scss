@@ -19,3 +19,21 @@
     text-decoration: none;
     text-align: center;
 }
+
+.card_mujer {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+    h3 {
+        text-align: center;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+    .mujer_texto {
+        text-align: center;
+        font-size: 12px;
+        height: 18px;
+    }
+}
