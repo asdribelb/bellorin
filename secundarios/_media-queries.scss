@@ -30,7 +30,7 @@
     }
 
     h2 {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .publicidad {
@@ -71,8 +71,8 @@
 }
 
 @media screen and (max-width: 580px) {
-    .logo {
-        display: none;
+    .logotipo {
+        flex-direction: column;
     }
 
     .banner {
@@ -90,7 +90,6 @@
         }
 
         .navegador1 {
-            font-size: 14px;
             padding: 0;
             font-weight: 600;
             justify-content: center;
@@ -109,12 +108,6 @@
             display: flex;
             flex-direction: column;
         }
-
-        .logotipo {
-            padding: 10px;
-            justify-content: center;
-            align-items: center;
-        }
     }
 }
 
@@ -130,4 +123,43 @@
     .card2 {
         flex-direction: column;
     }
+}
+
+.publicidad_2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .categoria {
+        justify-content: center;
+
+        .categoria_2 {
+            justify-content: center;
+        }
+    }
+}
+
+.publicidad_hombre {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .card_hombre {
+        flex-direction: column;
+    }
+
+    .hombre_texto {
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+.publicidad_niños {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .card_bebe{
+            flex-direction: column;
+        }
 }

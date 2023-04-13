@@ -4,6 +4,7 @@
     padding: 40px;
     display: flex;
     gap: 40px;
+    margin-right: 20px;
 
     .categoria {
         text-align: center;
@@ -13,9 +14,8 @@
     }
 
     .categoria_2 {
-        align-items: flex-end;
-        font-size: 20px;
-        margin: 20px;
+        font-size: 18px;
+        text-align: center;
     }
 
     .card_4 {
@@ -24,37 +24,15 @@
         display: flex;
         flex-direction: column;
     }
-}
 
-.publicidad {
-    padding: 30px;
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-
-    .card_hombre {
-        display: flex;
+    .card_5 {
+        padding: 10px;
+        width: 50%;
+        display: grid;
         flex-direction: column;
-        width: 20%;
-
-        h3 {
-            text-align: center;
-            font-size: 10px;
-            margin: 10px;
-        }
-
-        .hombre_texto {
-            text-align: center;
-            font-size: 12px;
-        }
-
-        h2 {
-            text-align: center;
-            font-size: 10px;
-            font-family: sans-serif;
-        }
     }
 }
+
 
 /*OFERTAS DEL DIA*/
 

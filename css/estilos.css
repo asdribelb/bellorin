@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 * {
   margin: 0;
@@ -34,6 +35,7 @@
   text-decoration: none;
   justify-content: center;
   align-items: center;
+  font-size: 18px;
 }
 .logotipo .navegador1 a:hover {
   color: rgb(255, 0, 98);
@@ -82,6 +84,7 @@
   padding: 40px;
   display: flex;
   gap: 40px;
+  margin-right: 20px;
 }
 .publicidad_2 .categoria {
   text-align: center;
@@ -90,9 +93,8 @@
   font-family: sans-serif;
 }
 .publicidad_2 .categoria_2 {
-  align-items: flex-end;
-  font-size: 20px;
-  margin: 20px;
+  font-size: 18px;
+  text-align: center;
 }
 .publicidad_2 .card_4 {
   padding: 10px;
@@ -100,31 +102,11 @@
   display: flex;
   flex-direction: column;
 }
-
-.publicidad {
-  padding: 30px;
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-}
-.publicidad .card_hombre {
-  display: flex;
+.publicidad_2 .card_5 {
+  padding: 10px;
+  width: 50%;
+  display: grid;
   flex-direction: column;
-  width: 20%;
-}
-.publicidad .card_hombre h3 {
-  text-align: center;
-  font-size: 10px;
-  margin: 10px;
-}
-.publicidad .card_hombre .hombre_texto {
-  text-align: center;
-  font-size: 12px;
-}
-.publicidad .card_hombre h2 {
-  text-align: center;
-  font-size: 10px;
-  font-family: sans-serif;
 }
 
 /*OFERTAS DEL DIA*/
@@ -199,7 +181,7 @@ h2 {
 .card_mujer {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 30%;
 }
 .card_mujer h3 {
   text-align: center;
@@ -219,6 +201,32 @@ h2 {
   padding: 20px;
 }
 
+.publicidad {
+  padding: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.publicidad .card_hombre {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.publicidad .card_hombre h3 {
+  text-align: center;
+  font-size: 15px;
+  margin: 10px;
+}
+.publicidad .card_hombre .hombre_texto {
+  text-align: center;
+  font-size: 15px;
+}
+.publicidad .card_hombre h2 {
+  text-align: center;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
 .ropa {
   display: flex;
   position: relative;
@@ -230,14 +238,16 @@ h2 {
 .card_kids {
   justify-content: center;
   padding: 20px;
+  gap: 20px;
 }
 .card_kids .card_kids2 {
   border-radius: 100px;
   width: 80px;
   justify-content: center;
+  gap: 20px;
 }
 .card_kids h3 {
-  font-size: 10px;
+  font-size: 15px;
   margin: 10px;
   text-align: center;
 }
@@ -255,12 +265,12 @@ h2 {
 }
 .card_bebe h3 {
   text-align: center;
-  font-size: 10px;
+  font-size: 15px;
   margin: 10px;
 }
 .card_bebe .bebe_texto {
   text-align: center;
-  font-size: 12px;
+  font-size: 14px;
   height: 18px;
 }
 
@@ -433,7 +443,7 @@ h2 {
     padding: 20px;
   }
   h2 {
-    font-size: 15px;
+    font-size: 20px;
   }
   .publicidad {
     flex-direction: column;
@@ -465,8 +475,8 @@ h2 {
   }
 }
 @media screen and (max-width: 580px) {
-  .logo {
-    display: none;
+  .logotipo {
+    flex-direction: column;
   }
   .banner {
     display: flex;
@@ -482,7 +492,6 @@ h2 {
     padding: 20px;
   }
   .banner .navegador1 {
-    font-size: 14px;
     padding: 0;
     font-weight: 600;
     justify-content: center;
@@ -498,11 +507,6 @@ h2 {
     display: flex;
     flex-direction: column;
   }
-  .banner .logotipo {
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-  }
 }
 .descuentos {
   padding: 20px;
@@ -514,5 +518,39 @@ h2 {
   align-items: center;
 }
 .galeria .card2 {
+  flex-direction: column;
+}
+
+.publicidad_2 {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.publicidad_2 .categoria {
+  justify-content: center;
+}
+.publicidad_2 .categoria .categoria_2 {
+  justify-content: center;
+}
+
+.publicidad_hombre {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.publicidad_hombre .card_hombre {
+  flex-direction: column;
+}
+.publicidad_hombre .hombre_texto {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.publicidad_niños {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.publicidad_niños .card_bebe {
   flex-direction: column;
 }/*# sourceMappingURL=estilos.css.map */
