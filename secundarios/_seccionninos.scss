@@ -6,6 +6,13 @@
     justify-content: center;
 }
 
+.publicidad_niños {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 30px;
+}
+
 .card_kids {
     justify-content: center;
     padding: 20px;
@@ -36,8 +43,11 @@
 
 .card_bebe {
     display: flex;
+    padding: 20px;
+
     flex-direction: column;
-    width: 20%;
+    width: 40%;
+    background-color: rgb(255, 192, 203);
 
     h3 {
         text-align: center;

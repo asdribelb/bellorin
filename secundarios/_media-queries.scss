@@ -140,26 +140,38 @@
 }
 
 .publicidad_hombre {
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 
     .card_hombre {
         flex-direction: column;
-    }
 
-    .hombre_texto {
-        justify-content: center;
-        flex-direction: column;
+        .hombre_texto {
+            justify-content: center;
+        }
     }
 }
 
 .publicidad_niños {
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 
-        .card_bebe{
-            flex-direction: column;
+    .card_bebe {
+        flex-direction: column;
+
+        .bebe_texto {
+            justify-content: center;
+            margin: 25px;
+            align-items: center;
         }
+    }
+}
+
+.publicidad {
+    align-items: center;
+
+    .card_mujer {
+        flex-direction: column;
+    }
 }
